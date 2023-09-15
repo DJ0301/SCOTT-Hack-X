@@ -1,0 +1,7 @@
+/* screen - data */
+
+.data {
+  background-color: var(--white);
+  height: 1080px;
+  width: 1920px;
+}

@@ -1,0 +1,115 @@
+:root { 
+  --black: #000000;
+  --coconut: #fcfeff;
+  --gallery: #edefee;
+  --gravel: #494949;
+  --mine-shaft: #33333340;
+  --nandor: #495e57;
+  --pampas: #f6f4eb;
+  --ripe-lemon: #f4ce14;
+  --white: #ffffff;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 36px;
+  --font-size-xxxl: 40px;
+  --font-size-xxxxl: 64px;
+  --font-size-xxxxxl: 72px;
+ 
+  --font-family-kaisei_decol: "Kaisei Decol", Helvetica;
+  --font-family-karla-bold: "Karla-Bold", Helvetica;
+  --font-family-karla-extrabold: "Karla-ExtraBold", Helvetica;
+  --font-family-karla-medium: "Karla-Medium", Helvetica;
+  --font-family-karla-regular: "Karla-Regular", Helvetica;
+  --font-family-lateef: "Lateef", Helvetica;
+  --font-family-markazi_text-medium: "Markazi Text-Medium", Helvetica;
+  --font-family-markazi_text-regular: "Markazi Text-Regular", Helvetica;
+}
+.navlink {
+  font-family: var(--font-family-karla-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.karla-extra-extra-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-karla-extrabold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.lateef-normal-pampas-72px {
+  color: var(--pampas);
+  font-family: var(--font-family-lateef);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lateef-normal-coconut-72px {
+  color: var(--coconut);
+  font-family: var(--font-family-lateef);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.karla-extra-extra-bold-nandor-16px {
+  color: var(--nandor);
+  font-family: var(--font-family-karla-extrabold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.karla-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-karla-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.karla-regular-normal-nandor-16px {
+  color: var(--nandor);
+  font-family: var(--font-family-karla-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.karla-medium-nandor-18px {
+  color: var(--nandor);
+  font-family: var(--font-family-karla-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.markazitext-medium-ripe-lemon-64px {
+  color: var(--ripe-lemon);
+  font-family: var(--font-family-markazi_text-medium);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.markazitext-regular-normal-gallery-40px {
+  color: var(--gallery);
+  font-family: var(--font-family-markazi_text-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.karla-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-karla-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}

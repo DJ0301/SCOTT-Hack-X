@@ -1,0 +1,95 @@
+/* screen - landing-page */
+
+.landing-page {
+  align-items: flex-start;
+  background-color: #4682a9;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  width: 1920px;
+}
+
+.landing-page .overlap-group {
+  align-items: center;
+  background-color: #91c8e4;
+  display: flex;
+  height: 122px;
+  min-width: 1920px;
+  padding: 7px 33px;
+}
+
+.landing-page .name {
+  align-self: flex-start;
+  color: var(--pampas);
+  font-family: var(--font-family-kaisei_decol);
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 71px;
+  width: 269px;
+}
+
+.landing-page .data {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-lateef);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  margin-left: 991px;
+  min-height: 91px;
+  width: 100px;
+}
+
+.landing-page .optimize {
+  color: var(--white);
+  font-family: var(--font-family-lateef);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 19.0px;
+  margin-left: 62px;
+  min-height: 63px;
+  white-space: nowrap;
+  width: 224px;
+}
+
+.landing-page .user-1 {
+  height: 61px;
+  margin-bottom: 15.0px;
+  margin-left: 121px;
+  object-fit: cover;
+  width: 61px;
+}
+
+.landing-page .supply-chain-optimiz {
+  color: transparent;
+  font-family: var(--font-family-lateef);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 162px;
+  margin-top: 77px;
+  min-height: 197px;
+  width: 822px;
+}
+
+.landing-page .improve-your-busines {
+  color: var(--pampas);
+  font-family: var(--font-family-lateef);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: -1.98px;
+  line-height: normal;
+  margin-left: 162px;
+  margin-top: 57px;
+  min-height: 58px;
+  width: 1082px;
+}

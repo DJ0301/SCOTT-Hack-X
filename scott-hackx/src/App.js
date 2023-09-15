@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import ProductForm from './ProductForm';
+import LandingPage from './LandingPage';
+// import Data from './Data';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Smart Contract Interaction App</h1>
-        <ProductForm />
+        <LandingPage />
+        {/* <Data /> */}
       </header>
     </div>
   );

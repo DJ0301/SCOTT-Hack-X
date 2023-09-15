@@ -1,0 +1,160 @@
+.reservation-form-HF {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.reservation-form-HF .div-4 {
+  background-image: url(../../../static/img/reservation-form-2.png);
+  background-size: 100% 100%;
+  height: 926px;
+  position: relative;
+  width: 428px;
+}
+
+.reservation-form-HF .group-2 {
+  height: 165px;
+  left: 14px;
+  position: absolute;
+  top: 224px;
+  width: 396px;
+}
+
+.reservation-form-HF .reserve-a-table-wrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #33333340;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  left: 0;
+  overflow-x: scroll;
+  padding: 40px 0px 32px;
+  position: absolute;
+  top: 0;
+  width: 396px;
+}
+
+.reservation-form-HF .reserve-a-table {
+  color: #000000;
+  font-family: "Karla-ExtraBold", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 296px;
+}
+
+.reservation-form-HF .overlap-2 {
+  border-radius: 31px;
+  height: 62px;
+  left: 4px;
+  position: absolute;
+  top: 103px;
+  width: 62px;
+}
+
+.reservation-form-HF .component {
+  border: 3px solid;
+  border-color: #494949;
+  border-radius: 31px;
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 62px;
+}
+
+.reservation-form-HF .line-2 {
+  height: 45px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 45px;
+}
+
+.reservation-form-HF .image {
+  height: 41px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 41px;
+}
+
+.reservation-form-HF .overlap-group-2 {
+  border-radius: 31px;
+  height: 62px;
+  left: 114px;
+  position: absolute;
+  top: 103px;
+  width: 62px;
+}
+
+.reservation-form-HF .image-2 {
+  height: 47px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 47px;
+}
+
+.reservation-form-HF .overlap-3 {
+  border-radius: 31px;
+  height: 62px;
+  left: 224px;
+  position: absolute;
+  top: 103px;
+  width: 62px;
+}
+
+.reservation-form-HF .image-3 {
+  height: 48px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.reservation-form-HF .overlap-4 {
+  border-radius: 31px;
+  height: 62px;
+  left: 334px;
+  position: absolute;
+  top: 103px;
+  width: 62px;
+}
+
+.reservation-form-HF .image-4 {
+  height: 43px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 43px;
+}
+
+.reservation-form-HF .vector-2 {
+  height: 20px;
+  left: 152px;
+  position: absolute;
+  top: 789px;
+  width: 20px;
+}
+
+.reservation-form-HF .vector-3 {
+  height: 20px;
+  left: 357px;
+  position: absolute;
+  top: 789px;
+  width: 20px;
+}

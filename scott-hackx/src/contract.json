@@ -1,0 +1,586 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_productType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_cost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destinations",
+				"type": "string"
+			}
+		],
+		"name": "addDistributor",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_productType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_cost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_defectRates",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destinations",
+				"type": "string"
+			}
+		],
+		"name": "addManufacturer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_productType",
+				"type": "string"
+			}
+		],
+		"name": "addProduct",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_productType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_cost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_productsSold",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destinations",
+				"type": "string"
+			}
+		],
+		"name": "addRetailer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_stock",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_costPerItem",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_orderQuantity",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destinations",
+				"type": "string"
+			}
+		],
+		"name": "addSupplier",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "company",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "productType",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "productReturns",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "distributors",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "productType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "cost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destinations",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "manufacturers",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "productType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "cost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "defectRates",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destinations",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "products",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "productType",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "retailers",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "productType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "cost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "productsSold",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destinations",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_productType",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_productReturns",
+				"type": "uint256"
+			}
+		],
+		"name": "setProductReturns",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "suppliers",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "productId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "stock",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "costPerItem",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "orderQuantity",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingCost",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shippingTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "transportMode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "routes",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destinations",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

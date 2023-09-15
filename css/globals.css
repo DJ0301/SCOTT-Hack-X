@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lateef:400|Kaisei+Decol:400");
+@import url("https://fonts.googleapis.com/css?family=Khula:400|Lateef:400|Maven+Pro:400|Paytone+One:400");
 /* The following line is used to measure usage of this code. You can remove it if you want. */
 @import url("https://px.animaapp.com/64f20d260680a72174ed78c0.64f20d270680a72174ed78c3.KKGDM9D.hcp.png");
 
@@ -25,71 +25,4 @@
 
 * {
   box-sizing: border-box;
-}
-
-.home-order::-webkit-scrollbar {
-  display: none;
-  width: 0;
-}
-
-.home-order {
-  align-items: flex-start;
-  background-color: var(--white);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-color: var(--mine-shaft);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  justify-content: center;
-  overflow-x: scroll;
-  padding: 40px 0px 32px;
-  position: relative;
-  width: 396px;
-}
-
-.reserve-a-table {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  width: 296px;
-}
-
-.line-3 {
-  height: 45px;
-  width: 45px;
-}
-
-.image-1 {
-  height: 41px;
-  left: 10px;
-  top: 10px;
-  width: 41px;
-}
-
-.image-2 {
-  height: 47px;
-  left: 10px;
-  top: 7px;
-  width: 47px;
-}
-
-.image-3 {
-  height: 48px;
-  left: 7px;
-  top: 0;
-  width: 48px;
-}
-
-.image-4 {
-  height: 43px;
-  left: 10px;
-  top: 10px;
-  width: 43px;
-}
-
-.image {
-  object-fit: cover;
-  position: absolute;
 }

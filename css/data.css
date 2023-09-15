@@ -1,7 +1,58 @@
 /* screen - data */
 
 .data {
-  background-color: var(--white);
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
   height: 1080px;
+  width: 1920px;
+}
+
+.data .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 1023px;
+  height: 77px;
+  margin-right: 7.0px;
+  margin-top: 154px;
+  min-width: 1809px;
+}
+
+.Table{
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  bottom:0px;
+}
+
+.data .title {
+  color: #000000;
+  font-family: var(--font-family-khula);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 76px;
+  width: 517px;
+}
+
+.data .rectangle-4 {
+  align-self: flex-end;
+  background-color: #d9d9d9;
+  height: 53px;
+  width: 269px;
+}
+
+#Selection{
+  align-self: flex-end;
+  background-color: #d9d9d9;
+  height: 53px;
+  width: 269px;
+}
+
+.data .rectangle-3 {
+  height: 827px;
   width: 1920px;
 }

@@ -22,8 +22,8 @@ def csv_to_json(csv_file, json_file):
         json.dump(data, json_file, indent=4)
 
 # Specify the CSV input file and JSON output file
-csv_input_file = 'Test-Data/merged_data_supplier.csv'
-json_output_file = 'Test-Data/merged_data_supplier.json'
+csv_input_file = 'AI/Data/Supplier Data.csv'
+json_output_file = 'Test-Data/Supplier_supplier.json'
 
 # Call the function to convert CSV to JSON
 csv_to_json(csv_input_file, json_output_file)

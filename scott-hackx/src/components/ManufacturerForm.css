@@ -1,0 +1,14 @@
+/* ManufacturerForm.css */
+
+/* Add styles for labels */
+label {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  /* Add styles for input fields */
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  

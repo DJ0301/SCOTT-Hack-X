@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { addManufacturer } from '../contractInteraction'; // Replace with the path to your JavaScript file
+import './rf.css';
 
 function ManufacturerForm() {
   const [formData, setFormData] = useState({
@@ -47,7 +48,7 @@ function ManufacturerForm() {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Add Manufacturer</h2>
       <form onSubmit={handleSubmit}>
         <table>

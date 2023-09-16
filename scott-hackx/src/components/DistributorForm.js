@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { addDistributor } from '../contractInteraction'; // Import the addDistributor function
+import Button from 'react-bootstrap/Button';
+import './rf.css';
 
 function DistributorForm() {
   const [formData, setFormData] = useState({
@@ -45,7 +47,7 @@ function DistributorForm() {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Add Distributor</h2>
       <form onSubmit={handleSubmit}>
         <table>
@@ -162,7 +164,7 @@ function DistributorForm() {
           </tbody>
         </table>
         <div>
-          <button type="submit">Add Distributor</button>
+          <button type="submit" variant="primary">Add Distributor</button>
         </div>
       </form>
     </div>

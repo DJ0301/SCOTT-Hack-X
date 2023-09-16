@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { addRetailer } from '../contractInteraction'; // Import the addRetailer function
+import Table from 'react-bootstrap/Table';
+import './rf.css';
+
 
 function RetailerForm() {
   const [formData, setFormData] = useState({
@@ -47,9 +50,9 @@ function RetailerForm() {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Add Retailer</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="custom-form">
         <table>
           <tbody>
             <tr>

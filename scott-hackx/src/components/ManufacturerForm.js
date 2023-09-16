@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { addManufacturer } from '../contractInteraction'; // Replace with the path to your JavaScript file
+import './ManufacturerForm.css'; // Import the CSS file
 
 function ManufacturerForm() {
   const [formData, setFormData] = useState({

@@ -1,12 +1,14 @@
 import React from 'react';
-import LandingPage from './LandingPage';
-// import Data from './Data';
+import './App.css';
+import SupplierForm from './components/SupplierForm';
+import SupplierDetails from './components/SupplierDetails.js';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <LandingPage />
-        {/* <Data /> */}
+        <h1>Supply Chain Optimization</h1>
+        <SupplierForm/>
+        <SupplierDetails/>
       </header>
     </div>
   );

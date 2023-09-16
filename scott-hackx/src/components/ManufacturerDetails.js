@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getManufacturerDetails } from './contractFunctions';
+import { getManufacturerDetails } from '../contractRead';
 
 function ManufacturerDetails({ manufacturerIndex }) {
   const [manufacturerData, setManufacturerData] = useState({});

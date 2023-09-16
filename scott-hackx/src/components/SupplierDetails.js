@@ -15,11 +15,23 @@ function SupplierDetails() {
   };
 
   return (
-    <div>
-      <h2>Supplier Details</h2>
+    <div className="form-container shadow-lg hover:shadow-2xl transition-all duration-300 rounded-lg p-8">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+
+      <h2 className="text-2xl font-bold mb-4">Chain Details</h2>
+            </td>
+            <td>
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
       <div>
         <label>
-          Supplier Index:
+          Product Index:
           <input
             type="number"
             value={supplierIndex}

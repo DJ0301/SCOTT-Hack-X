@@ -48,138 +48,164 @@ function ManufacturerForm() {
   };
 
   return (
-    <div className="form-container">
-      <h2>Add Manufacturer</h2>
-      <form onSubmit={handleSubmit}>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <label>Product ID:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="productId"
-                  value={formData.productId}
-                  onChange={handleChange}
-                />
-              </td>
-              <td>
-                <label>Product Type:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="productType"
-                  value={formData.productType}
-                  onChange={handleChange}
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label>Name:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                />
-              </td>
-              <td>
-                <label>Cost:</label>
-              </td>
-              <td>
-                <input
-                  type="number"
-                  name="cost"
-                  value={formData.cost}
-                  onChange={handleChange}
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label>Defect Rates:</label>
-              </td>
-              <td>
-                <input
-                  type="number"
-                  name="defectRates"
-                  value={formData.defectRates}
-                  onChange={handleChange}
-                />
-              </td>
-              <td>
-                <label>Shipping Cost:</label>
-              </td>
-              <td>
-                <input
-                  type="number"
-                  name="shippingCost"
-                  value={formData.shippingCost}
-                  onChange={handleChange}
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label>Shipping Time:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="shippingTime"
-                  value={formData.shippingTime}
-                  onChange={handleChange}
-                />
-              </td>
-              <td>
-                <label>Transport Mode:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="transportMode"
-                  value={formData.transportMode}
-                  onChange={handleChange}
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label>Routes:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="routes"
-                  value={formData.routes}
-                  onChange={handleChange}
-                />
-              </td>
-              <td>
-                <label>Destinations:</label>
-              </td>
-              <td>
-                <input
-                  type="text"
-                  name="destinations"
-                  value={formData.destinations}
-                  onChange={handleChange}
-                />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <div>
-          <button type="submit">Add Manufacturer</button>
-        </div>
-      </form>
+    <div className="form-container shadow-lg hover:shadow-2xl transition-all duration-300 rounded-lg p-8 ">
+  <h2 className="text-2xl font-bold mb-4">Add Manufacturer</h2>
+  <form onSubmit={handleSubmit}>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <label className="font-semibold">Product ID:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="productId"
+              value={formData.productId}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <label className="font-semibold">Product Type:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="productType"
+              value={formData.productType}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label className="font-semibold">Name:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <label className="font-semibold">Cost:</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              name="cost"
+              value={formData.cost}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label className="font-semibold">Defect Rates:</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              name="defectRates"
+              value={formData.defectRates}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <label className="font-semibold">Shipping Cost:</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              name="shippingCost"
+              value={formData.shippingCost}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label className="font-semibold">Shipping Time:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="shippingTime"
+              value={formData.shippingTime}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <label className="font-semibold">Transport Mode:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="transportMode"
+              value={formData.transportMode}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label className="font-semibold">Routes:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="routes"
+              value={formData.routes}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <label className="font-semibold">Destinations:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="destinations"
+              value={formData.destinations}
+              onChange={handleChange}
+              className="border p-2 rounded-md w-full"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div className="mt-4">
+      <button
+        type="submit"
+        className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition duration-300"
+      >
+        Add Manufacturer
+      </button>
     </div>
+  </form>
+</div>
+
   );
 }
 

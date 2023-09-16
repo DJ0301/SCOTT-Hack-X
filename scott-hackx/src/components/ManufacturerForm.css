@@ -11,4 +11,7 @@ label {
     padding: 5px;
     border: 1px solid #ccc;
   }
+  .hover\:shadow-2xl:hover{
+    box-shadow: 0px 8px 50px rgba(107, 28, 185, 0.6);
   
+  }

@@ -50,8 +50,8 @@ function RetailerForm() {
   };
 
   return (
-    <div className="form-container">
-      <h2>Add Retailer</h2>
+    <div className="form-container shadow-lg hover:shadow-2xl transition-all duration-300 rounded-lg p-8">
+      <h2 className="text-2xl font-bold mb-4">Add Retailer</h2>
       <form onSubmit={handleSubmit} className="custom-form">
         <table>
           <tbody>
@@ -67,6 +67,8 @@ function RetailerForm() {
                   onChange={handleChange}
                 />
               </td>
+              </tr>
+          <tr>
               <td>
                 <label>Product Type:</label>
               </td>
@@ -91,6 +93,8 @@ function RetailerForm() {
                   onChange={handleChange}
                 />
               </td>
+              </tr>
+          <tr>
               <td>
                 <label>Cost:</label>
               </td>
@@ -115,6 +119,8 @@ function RetailerForm() {
                   onChange={handleChange}
                 />
               </td>
+              </tr>
+          <tr>
               <td>
                 <label>Shipping Cost:</label>
               </td>
@@ -139,6 +145,8 @@ function RetailerForm() {
                   onChange={handleChange}
                 />
               </td>
+              </tr>
+          <tr>
               <td>
                 <label>Transport Mode:</label>
               </td>
@@ -163,6 +171,8 @@ function RetailerForm() {
                   onChange={handleChange}
                 />
               </td>
+              </tr>
+          <tr>
               <td>
                 <label>Destinations:</label>
               </td>

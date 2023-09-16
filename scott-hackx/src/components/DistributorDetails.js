@@ -13,8 +13,8 @@ function DistributorDetails({ distributorIndex }) {
   }, [distributorIndex]);
 
   return (
-    <div>
-      <h2>Distributor Details</h2>
+    <div className="form-container shadow-lg hover:shadow-2xl transition-all duration-300 rounded-lg p-8">
+      <h2 className="text-2xl font-bold mb-4">Distributor Details</h2>
       <table>
         <thead>
           <tr>

@@ -1,0 +1,145 @@
+.index {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.index .div {
+  background-color: #ffffff;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.index .rectangle {
+  height: 827px;
+  left: 0;
+  position: absolute;
+  top: 253px;
+  width: 1920px;
+}
+
+.index .overlap {
+  height: 266px;
+  left: -13px;
+  position: absolute;
+  top: -35px;
+  width: 1941px;
+}
+
+.index .overlap-group {
+  height: 265px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1941px;
+}
+
+.index .text-wrapper {
+  color: #000000;
+  font-family: "Khula", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 189px;
+  width: 517px;
+}
+
+.index .navbar {
+  height: 195px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1941px;
+}
+
+.index .overlap-group-2 {
+  height: 195px;
+  position: relative;
+  width: 1933px;
+}
+
+.index .rectangle-2 {
+  background-color: #1e1e1e;
+  height: 122px;
+  left: 13px;
+  position: absolute;
+  top: 35px;
+  width: 1920px;
+}
+
+.index .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Sarala", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  left: 1257px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  width: 100px;
+}
+
+.index .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Sarala", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  left: 1399px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  width: 224px;
+}
+
+.index .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Sarala", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  left: 1623px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  width: 114px;
+}
+
+.index .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Sarala", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  left: 1761px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  width: 160px;
+}
+
+.index .logolight {
+  height: 195px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.index .rectangle-3 {
+  background-color: #d9d9d9;
+  height: 53px;
+  left: 1605px;
+  position: absolute;
+  top: 213px;
+  width: 269px;
+}

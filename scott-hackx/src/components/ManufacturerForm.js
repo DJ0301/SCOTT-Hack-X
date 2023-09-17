@@ -42,6 +42,7 @@ function ManufacturerForm() {
       );
 
       alert('Manufacturer added successfully!');
+      
     } catch (error) {
       console.error('Error:', error);
     }

@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import SupplierForm from './SupplierForm'; // Import your SupplierForm component
 import ManufacturerForm from './ManufacturerForm'; // Import your ManufacturerForm component
-// import ReturnsDetails from './ReturnsDetails'; // Import your ReturnsDetails component
 import DistributorForm from './DistributorForm'; // Import your DistributorForm component
 import RetailerForm from './RetailerForm'; // Import your RetailerForm component
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Table from 'react-bootstrap/Table';
 import './rf.css';
 import Logo from './LogoLight.png'
 

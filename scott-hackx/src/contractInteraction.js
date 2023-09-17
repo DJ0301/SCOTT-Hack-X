@@ -1,12 +1,11 @@
 import contractAbi from './contract.json';
 const { ethers } = require("ethers");
-
 const provider = new ethers.providers.JsonRpcProvider('https://erpc.apothem.network');
     console.log('Provider initialized:', provider);
     const signer = provider.getSigner();
     const contractAddress = '0xb8b90fdca71590f035614c157c2605ec529fe46e'; // Replace with your contract address
     const contract = new ethers.Contract(contractAddress, contractAbi, signer);
-
+let tx = '';
 async function addSupplier(
   productId,
   name,
@@ -25,7 +24,7 @@ async function addSupplier(
     const contractAddress = '0xA9617BD6949ce4E434006Fe6A327dD536CFD9eAe'; // Replace with your contract address
     const contract = new ethers.Contract(contractAddress, contractAbi, signer);
 
-    const tx = await contract.addSupplier(
+    tx = await contract.addSupplier(
       productId,
       name,
       stock,
@@ -40,6 +39,7 @@ async function addSupplier(
     );
     await tx.wait();
     console.log('Supplier added successfully!');
+    console.log(tx.hash);
   } catch (error) {
     console.error('Error:', error);
   }
@@ -58,7 +58,7 @@ async function addSupplier(
     destinations
   ) {
     try {
-      const tx = await contract.addManufacturer(
+      tx = await contract.addManufacturer(
         productId,
         productType,
         name,
@@ -90,7 +90,7 @@ async function addSupplier(
     destinations
   ) {
     try {
-      const tx = await contract.addDistributor(
+      tx = await contract.addDistributor(
         productId,
         productType,
         name,
@@ -121,7 +121,7 @@ async function addSupplier(
     destinations
   ) {
     try {
-      const tx = await contract.addRetailer(
+      tx = await contract.addRetailer(
         productId,
         productType,
         name,
@@ -143,7 +143,7 @@ async function addSupplier(
 
   async function setProductReturns(productId, productType, productReturns) {
     try {
-      const tx = await contract.setProductReturns(
+      tx = await contract.setProductReturns(
         productId,
         productType,
         productReturns,
@@ -156,4 +156,4 @@ async function addSupplier(
     }
   }
 
-  export {addSupplier,addDistributor,addManufacturer,addRetailer,setProductReturns};
+  export {addSupplier,addDistributor,addManufacturer,addRetailer,setProductReturns,tx};

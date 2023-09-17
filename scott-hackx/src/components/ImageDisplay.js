@@ -1,29 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import transact from './transact.png';
+import React, { useState } from 'react';
+import QRCode from 'qrcode.react'; // Import the QRCode component
+import { tx } from '../contractInteraction'; // Import the 'tx' variable from your contractInteraction.js file
 
-function ImageDisplay() {
-  const [showImage, setShowImage] = useState(false);
+function DynamicQRCode() {
+  const [showQR, setShowQR] = useState(false);
 
-  const handleValidateClick = () => {
-    setShowImage(true);
-
-    // Set a timeout to hide the image after 3 seconds
-    setTimeout(() => {
-      setShowImage(false);
-    }, 6000); // 3000 milliseconds = 3 seconds
+  const handleGenerateQR = () => {
+    setShowQR(true);
   };
-
+  let text = `https://explorer.apothem.network/tx/0x75f078d337eb7a3784bc0a2e55c680468d38c6dd6dea0da41d1d2533029efc8d#overview`
   return (
     <div>
-      <button onClick={handleValidateClick}>VALIDATE TRANSACTION</button>
-      <br />
-      {showImage && (
+      <button onClick={handleGenerateQR}>Validate Transaction</button>
+      {showQR && tx && (
         <div>
-          <img src={transact} alt="Your Image" />
+          <QRCode value={text} /> {/* Use the QRCode component with the 'tx' value */}
         </div>
       )}
     </div>
   );
 }
 
-export default ImageDisplay;
+export default DynamicQRCode;

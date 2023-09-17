@@ -27,6 +27,7 @@ function ReturnsForm() {
       );
 
       alert('Product Returns set successfully!');
+      console.log(tx.hash);
     } catch (error) {
       console.error('Error:', error);
     }

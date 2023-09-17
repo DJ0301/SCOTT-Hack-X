@@ -3,7 +3,7 @@ const { ethers } = require("ethers");
 const provider = new ethers.providers.JsonRpcProvider('https://erpc.apothem.network');
     console.log('Provider initialized:', provider);
     const signer = provider.getSigner();
-    const contractAddress = '0xb8b90fdca71590f035614c157c2605ec529fe46e'; // Replace with your contract address
+    const contractAddress = '0xb8b90fdca71590f035614c157c2605ec529fe46e';
     const contract = new ethers.Contract(contractAddress, contractAbi, signer);
 let tx = '';
 async function addSupplier(
@@ -73,6 +73,8 @@ async function addSupplier(
       );
       await tx.wait();
       console.log('Manufacturer added successfully!');
+      console.log(tx.hash);
+
     } catch (error) {
       console.error('Error:', error);
     }
@@ -104,6 +106,8 @@ async function addSupplier(
       );
       await tx.wait();
       console.log('Distributor added successfully!');
+      console.log(tx.hash);
+
     } catch (error) {
       console.error('Error:', error);
     }
@@ -136,6 +140,8 @@ async function addSupplier(
       );
       await tx.wait();
       console.log('Retailer added successfully!');
+      console.log(tx.hash);
+
     } catch (error) {
       console.error('Error:', error);
     }
@@ -151,6 +157,8 @@ async function addSupplier(
       );
       await tx.wait();
       console.log('Product returns updated successfully!');
+      console.log(tx.hash);
+
     } catch (error) {
       console.error('Error:', error);
     }

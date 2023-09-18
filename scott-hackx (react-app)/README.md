@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# SCOTT: Supply Chain Optimization using Transparent Technologies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SCOTT is a Supply Chain Optimization application built using React, deployed on the XinFin XDC Network. This project leverages advanced AI capabilities powered by the Llama model.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [AI Integration](#ai-integration)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+SCOTT (Supply Chain Optimization using Transparent Technologies) is a web application designed to enhance supply chain management by leveraging blockchain technology for transparency, efficiency, and traceability. It provides a user-friendly interface to interact with the supply chain network, offering features such as supplier, manufacturer, distributor, and retailer management.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Supplier Management**: Add and manage suppliers, including details like stock, cost per item, and shipping information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Manufacturer Management**: Register manufacturers with specific product details, including production cost, defect rates, and shipping information.
 
-### `npm run build`
+- **Distributor Management**: Add and manage distributors, specifying details like cost, shipping cost, and shipping time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Retailer Management**: Register retailers with information on products sold, shipping cost, and shipping time.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Product Returns**: Track product returns for better quality control and analysis.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **AI Integration**: Utilize advanced AI (Llama model) for predictive analytics and optimization.
 
-### `npm run eject`
+- **Transparent Transactions**: Leverage XinFin XDC Network for secure and transparent transactions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend**: React
+- **Blockchain**: XinFin XDC Network
+- **AI Model**: Llama
+- **Smart Contract Language**: Solidity
+- **Backend**: Node.js, Express.js , Ethers.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+   git clone https://github.com/DJ0301/scott-hack-x.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   cd scott-hackx
+   npm install
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Start the React application:
+   
+   npm start
 
-### Analyzing the Bundle Size
+   The application should be accessible at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Interact with the user-friendly interface to manage suppliers, manufacturers, distributors, and retailers.
 
-### Making a Progressive Web App
+## AI Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The AI component of SCOTT is powered by the Llama model, providing advanced predictive analytics for supply chain optimization.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[GPL License](LICENSE)

@@ -1,0 +1,341 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  text-align: left !important;
+}
+body{
+    min-height: 100vh;
+background-image: linear-gradient(
+  350deg,
+  hsl(240deg 100% 91%) 0%,
+  hsl(223deg 100% 85%) 42%,
+  hsl(212deg 97% 76%) 100%
+);
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+td>label{
+    text-align: left !important;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #eceeef;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #eceeef;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #eceeef;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-active,
+.table-active > th,
+.table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #dff0d8;
+}
+
+.table-hover .table-success:hover {
+  background-color: #d0e9c6;
+}
+
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+  background-color: #d0e9c6;
+}
+
+.table-info,
+.table-info > th,
+.table-info > td {
+  background-color: #d9edf7;
+}
+
+.table-hover .table-info:hover {
+  background-color: #c4e3f3;
+}
+
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+  background-color: #c4e3f3;
+}
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #fcf8e3;
+}
+
+.table-hover .table-warning:hover {
+  background-color: #faf2cc;
+}
+
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+  background-color: #faf2cc;
+}
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+  background-color: #f2dede;
+}
+
+.table-hover .table-danger:hover {
+  background-color: #ebcccc;
+}
+
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+  background-color: #ebcccc;
+}
+
+.thead-inverse th {
+  color: #fff;
+  background-color: #292b2c;
+}
+
+.thead-default th {
+  color: #464a4c;
+  background-color: #eceeef;
+}
+
+.table-inverse {
+  color: #fff;
+  background-color: #292b2c;
+}
+
+.table-inverse th,
+.table-inverse td,
+.table-inverse thead th {
+  border-color: #fff;
+}
+
+.table-inverse.table-bordered {
+  border: 0;
+}
+
+.form-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+form>button{
+    margin: 20px;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+button{
+    margin-right: 0.07rem;
+    margin-left: 0.07rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .5rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    outline: none;
+    flex: column;
+    gap: 12px;
+
+    /* &:hover, &:focus{
+      text-decoration: none; */
+}
+
+
+/* A minimalistic blue theme for a website */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Use a light gray background for the body */
+
+.close{
+    margin-top: 50px;
+}
+  
+  /* Use a dark blue color for the header and footer */
+  header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Use a white background and a blue border for the main content */
+  main {
+    background-color: white;
+    border: 5px solid #003366;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  /* Use a lighter blue color for the headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #0066cc;
+  }
+  
+  /* Use a blue underline for the links */
+  a {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  
+  /* Use a blue hover effect for the buttons */
+  button {
+    background-color: white;
+    color: #0066cc;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .main button:hover {
+    background-color: #0066cc !important;
+    color: white !important;
+  }
+
+  .Nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+    background-color: black;
+    margin-bottom: 50px;
+    /* position: absolute; */
+  }
+
+
+
+
+  .Nav button{
+    margin: 13px;
+    margin-right: 30px;
+    background-color: black;
+  }
+
+  #Logo{
+    position: absolute;
+    left: 0px;
+    height: 140px;
+    margin-bottom: 5px;
+    top: -10px;
+
+  }
+
+  .Nav>div{
+    justify-self: flex-end;
+    margin-right: 30px;
+  }
+
+  form {
+    padding: 20px; /* Add padding to the form */
+    margin: 20px; /* Add margins to create spacing */
+    border: 1px solid #ccc; /* Add a border for separation */
+    background-color: white; /* Set the background color to white */
+    border-radius: 10px;
+}
+  
+  /* Style form elements (labels, inputs, etc.) as needed */
+  form label {
+    font-weight: bold;
+    color: black;
+    margin-right: 10px; /* Adjust label spacing */
+  }
+  
+  form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; /* Adjust input spacing */
+  }
+  
+  form button {
+    padding: 10px 20px; /* Add padding to the button */
+    border: 1px #0066cc solid;
+    cursor: pointer;
+  }
+  
+  /* Style the h2 text inside the form */
+  h2 {
+    color: black; /* Set the text color to white */
+    font-size: x-large;
+  }
+.events-section .hover\:shadow-2xl:hover{
+  box-shadow: 0px 8px 50px rgba(107, 28, 185, 0.6);
+
+}
